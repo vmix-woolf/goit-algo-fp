@@ -1,6 +1,6 @@
 from llist import LinkedList
 
-def main():
+def show_reverse():
     llist = LinkedList()
     llist.append(5)
     llist.append(15)
@@ -10,6 +10,10 @@ def main():
     llist.display()
     llist.reverse()
     llist.display()
+
+def main():
+    show_reverse()
+
 
 
 if __name__ == '__main__':
