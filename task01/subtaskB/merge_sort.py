@@ -1,4 +1,4 @@
-from task01.llist import Node, LinkedList
+from task01.subtaskA.llist import Node, LinkedList
 
 def merge_sort(linked_list):
     if not linked_list.head or not linked_list.head.next:

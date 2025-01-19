@@ -1,6 +1,6 @@
-from task02.insertion_sort import insertion_sort
-from task02.merge_sort import merge_sort
-from task01.llist import LinkedList
+from task01.subtaskB.insertion_sort import insertion_sort
+from task01.subtaskB.merge_sort import merge_sort
+from task01.subtaskA.llist import LinkedList
 
 def create_linked_list(values):
     llist = LinkedList()

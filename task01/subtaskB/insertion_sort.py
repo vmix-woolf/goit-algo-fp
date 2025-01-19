@@ -1,4 +1,4 @@
-from task01.llist import Node
+from task01.subtaskA.llist import Node
 
 def insertion_sort(linked_list):
     # Перевіряємо, якщо список порожній або містить один елемент, то сортування не потрібне

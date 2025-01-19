@@ -1,5 +1,5 @@
-from task01.llist import Node, LinkedList
-from task02.main import create_linked_list
+from task01.subtaskA.llist import Node, LinkedList
+from task01.subtaskB.main import create_linked_list
 
 def merge_lists(left: Node, right: Node):
     dummy = Node()

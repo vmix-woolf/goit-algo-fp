@@ -1,4 +1,5 @@
-### task01 ###
+## task01 ##
+### subtaskA ###
 
 **reverse**
 
@@ -6,16 +7,19 @@
 
 - Використовується константна додаткова пам'ять O(1) (не потрібно допоміжних структур даних).
 
-### task02 ###
-**insertion sort**
+### subtaskB ###
 
-Source list:
+- Source list:
 6 -> 8 -> 9 -> 7 -> 10 -> 5 -> 3 -> 1 -> 2 -> 4 -> None
 
-After insertion sort:
+**insertion sort**
+
+- After insertion sort:
 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> None
 
-After merge sort:
+**merge sort**
+
+- After merge sort:
 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10 -> None
 
 Сортування злиттям ефективніше для довгих списків завдяки логарифмічній складності ділення і лінійному злиттю.
