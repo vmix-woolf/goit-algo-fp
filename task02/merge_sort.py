@@ -1,14 +1,11 @@
 from task01.llist import Node, LinkedList
-# from task03.merge_lists import merge_lists
 
 def merge_sort(linked_list):
     if not linked_list.head or not linked_list.head.next:
         return linked_list
 
     def split_list(head):
-        """
-        For splitting list into two parts
-        """
+        """ For splitting list into two parts """
         slow = head
         fast = head.next
 
@@ -22,9 +19,7 @@ def merge_sort(linked_list):
         return head, middle
 
     def merge_lists(left, right):
-        """
-        For two sorted lists merging
-        """
+        """ For two sorted lists merging """
         dummy = Node()
         tail = dummy
 
