@@ -26,5 +26,5 @@
 
 ## task02 ##
 #### Pythagoras tree fractal ####
-recursion level = 11
+recursion level = 9
 ![img.png](assets/img.png)
