@@ -1,5 +1,5 @@
-from insertion_sort import insertion_sort
-from merge_sort import merge_sort
+from task02.insertion_sort import insertion_sort
+from task02.merge_sort import merge_sort
 from task01.llist import LinkedList
 
 def create_linked_list(values):

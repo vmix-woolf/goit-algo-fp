@@ -11,10 +11,6 @@ def show_reverse():
     llist.reverse()
     llist.display()
 
-def main():
-    show_reverse()
-
-
 
 if __name__ == '__main__':
-    main()
+    show_reverse()
